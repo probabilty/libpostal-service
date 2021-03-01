@@ -1,4 +1,4 @@
-FROM pelias/libpostal_baseimage
+FROM mr1dsgn/docker-libpostal_baseimage
 
 # install go
 RUN curl https://dl.google.com/go/go1.11.linux-amd64.tar.gz | tar -C /usr/local -xz
